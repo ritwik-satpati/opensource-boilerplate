@@ -1,0 +1,16 @@
+Root directory
+|---src
+|   |---constants               ==> directory for constants values 
+|   |---controllers             ==> directory for controllers / apis
+|   |---db                      ==> directory for database connections
+|   |---libs                    ==> directory for functions or global variables commonly used   ==> (Optional ==> can use utils folder intogether for all)
+|   |---middlewares             ==> directory for middlewares                                                          
+|   |---models                  ==> directory for db schemas / db models
+|   |---routes                  ==> directory for api routes   ==> (We used Validations as middleswares, if you dont use remove those in routes)
+|   |---seeders                 ==> directory for data generation in db   ==> (Optional ==> development only ==> call at the end of index.js)
+|   |---utils                   ==> directory for utilities used in this application
+|   |---validations             ==> directory for validations   ==> (Optional ==> can use your own validation inside controllers)
+|   |---app.js                  ==> file for express app configuration
+|   |---index.js                ==> file for express server setup
+|---.env                        ==> file for environment variables   
+|---package.json                ==> file for the peoject packages to make it easy for others to manage and install 
