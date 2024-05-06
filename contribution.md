@@ -12,15 +12,15 @@
 - Fork the [Git Repo]()
 - Clone your own forked git repo
 - Create New File/Directory with proper name with all smallcase and separated by hyphen
-    - like `nodejs-expressjs-mongodb-esmodule` or `nodejs-expressjs-mongodb-multiple-connection-esmodule`
+    - like `nodejs-expressjs-mongodb-esmodule-javascript` or `nodejs-expressjs-mongodb-multiple-connection-esmodule-javascript`
 - `Package name` or `Project name` should be same as folder name 
 - Make sure all blank folder/directoty containing `.gitkeep`
 - Create `.gitignore` file inside your new boilerplate folder to avoid uploading unnecessary file or folder. Use [online .gitignore generator](https://mrkandreev.name/snippets/gitignore-generator/)
 - Create proper `setup.md` file inside your new boilerplate folder for setup steps
 - Create `FileStructure.txt` file inside your new boilerplate folder for boilerplate File Structure details
-    - See example: [nodejs-expressjs-mongodb-esmodule's FileStructure.txt](./nodejs-expressjs-mongodb-esmodule/FileStructure.txt)
+    - See example: [nodejs-expressjs-mongodb-esmodule's FileStructure.txt](./nodejs-expressjs-mongodb-esmodule-javascript/FileStructure.txt)
 - Create `README.md` file inside your new boilerplate folder for boilerplate's additional details include features, utilized technologies, as well as libraries and packages.
-    - See example: [nodejs-expressjs-mongodb-esmodule's README.md](./nodejs-expressjs-mongodb-esmodule/README.md)
+    - See example: [nodejs-expressjs-mongodb-esmodule's README.md](./nodejs-expressjs-mongodb-esmodule-javascript/README.md)
 - Code files must have clear comments for understanding and maintenance 
 - Push to your forked git repo
 - Pull Request with proper 

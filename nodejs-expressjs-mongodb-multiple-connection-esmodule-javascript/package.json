@@ -1,7 +1,7 @@
 {
-    "name": "nodejs-expressjs-mongodb-esmodule",
+    "name": "nodejs-expressjs-mongodb-esmodule-javascript",
     "version": "1.0.0",
-    "description": "A boilerplate template for Node.js Express.js MongoDB (single connection) backend server using module as type.",
+    "description": "A Javascript based boilerplate template for Node.js Express.js MongoDB (multiple connection) backend server using module as type.",
     "main": "index.js",
     "type": "module",
     "scripts": {

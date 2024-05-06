@@ -5,7 +5,7 @@ An open-source boilerplate template project containing the most commonly used te
 Each boilerplate has `setup.md` for setup instructions 
 ## Contributions
 Your contributions are always welcome!
-Check `contribution.md`
+Check [`contribution.md`](./contribution.md)
 
 ## License
 
@@ -26,4 +26,6 @@ To the extent possible under law, [Ritwik Satpati](https://www.linkedin.com/in/r
 
 ### NodeJs & ExpressJs - Backend Server
 
-__nodejs-expressjs-mongodb-esmodule__ : Node.js Express.js MongoDB (single connection) backend server using module as type
+__[nodejs-expressjs-mongodb-esmodule-javascript](./nodejs-expressjs-mongodb-esmodule-javascript/)__ : A Javascript based boilerplate template for Node.js Express.js MongoDB (single connection) backend server using module as type.
+
+__[nodejs-expressjs-mongodb-multiple-connection-esmodule-javascript](./nodejs-expressjs-mongodb-multiple-connection-esmodule-javascript/)__ : A Javascript based boilerplate template for Node.js Express.js MongoDB (multiple connection) backend server using module as type.

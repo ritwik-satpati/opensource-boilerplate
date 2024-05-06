@@ -1,0 +1,38 @@
+{
+    "name": "nodejs-expressjs-mongodb-esmodule-javascript",
+    "version": "1.0.0",
+    "description": "A Javascript based boilerplate template for Node.js Express.js MongoDB (single connection) backend server using module as type.",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+    },
+    "keywords": [
+        "node",
+        "nodejs",
+        "express",
+        "expressjs",
+        "mongo",
+        "mongodb",
+        "moogooes",
+        "backend",
+        "boilerplate",
+        "template"
+    ],
+    "author": "Ritwik Satpati",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.1.1",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "express-validator": "^7.0.1",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.3.3"
+    },
+    "devDependencies": {
+        "@faker-js/faker": "^8.4.1",
+        "nodemon": "^3.1.0"
+    }
+}

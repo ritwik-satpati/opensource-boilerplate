@@ -1,8 +1,11 @@
 # Boilerplate Details
-A boilerplate template for Node.js, Express.js, MongoDB (single connection) backend server using module as type.
+A Javascript based boilerplate template for Node.js Express.js MongoDB (multiple connection) backend server using module as type.
 
 ## Setup Instructions - [`setup.md`](./setup.md)
+
 ## File Structure - [`FileStructure.txt`](./FileStructure.txt)
+
+## API Docs in Postman - [`nodejs-expressjs-mongodb-multiple-connection-esmodule-javascript`](https://documenter.getpostman.com/view/28809068/2sA3JGg4YP)
 
 ## Main Tech Stack
 
