@@ -9,14 +9,14 @@ Root directory
 |   |   |---mongodb.js          ==> file for multiple mongodb connections setup
 |   |   |---primary.mongodb.js  ==> file for mongodb database 1 connection calling using mongodb.js
 |   |   |---secondary.mongodb.js==> file for mongodb database 2 connection calling using mongodb.js
-|   |---libs                    ==> directory for functions or global variables commonly used   ==> (Optional ==> can use utils folder intogether for all)
+|   |---libs                    ==> directory for third party api or external packages configuration   ==> (Optional ==> can use utils folder intogether for all)
 |   |---middlewares             ==> directory for middlewares                                                          
 |   |---models                  ==> directory for db schemas / db models
 |   |   |---user.routes.js      ==> file for model of users => which is connected with mongodb database 2
 |   |   |---blog.routes.js      ==> file for model of blogs => which is connected with mongodb database 2
 |   |---routes                  ==> directory for api routes   ==> (We used Validations as middleswares, if you dont use remove those in routes)
 |   |---seeders                 ==> directory for data generation in db   ==> (Optional ==> development only ==> call at the end of index.js)
-|   |---utils                   ==> directory for utilities used in this application
+|   |---utils                   ==> directory for utilities, which are created by us & not dependent on any third party api or external packages
 |   |---validations             ==> directory for validations   ==> (Optional ==> can use your own validation inside controllers)
 |   |---app.js                  ==> file for express app configuration
 |   |---index.js                ==> file for express server setup

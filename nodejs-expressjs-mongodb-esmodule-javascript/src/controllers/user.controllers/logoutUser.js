@@ -1,6 +1,6 @@
 import { asyncHandler } from "../../utils/asyncHandler.js";
 import { ApiResponse } from "../../utils/ApiResponse.js";
-import { cookieOptions } from "../../libs/cookieOptions.js";
+import { cookieOptions } from "../../constants/cookieOptions.js";
 
 // *** User Logout ***
 export const logoutUser = asyncHandler(async (req, res) => {

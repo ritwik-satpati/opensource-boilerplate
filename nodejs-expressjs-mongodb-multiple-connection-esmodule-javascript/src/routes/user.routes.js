@@ -2,7 +2,7 @@ import { Router } from "express";
 
 // ### Middlewares ###
 import { registerUserValidation, loginUserValidation } from "../validations/user.validations.js";
-import { validationHandler } from "../utils/validationHandler.js";
+import { validationHandler } from "../libs/validationHandler.js";
 import { userAuth } from "../middlewares/userAuth.middleware.js";
 
 // ### Controllers ###

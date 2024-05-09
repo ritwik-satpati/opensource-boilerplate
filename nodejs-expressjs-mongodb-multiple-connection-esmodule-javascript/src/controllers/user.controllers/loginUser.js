@@ -1,7 +1,7 @@
 import { asyncHandler } from "../../utils/asyncHandler.js";
 import { ApiError } from "../../utils/ApiError.js";
 import { ApiResponse } from "../../utils/ApiResponse.js";
-import { cookieOptions } from "../../libs/cookieOptions.js";
+import { cookieOptions } from "../../constants/cookieOptions.js";
 import { User } from "../../models/user.model.js";
 
 // *** User Login ***

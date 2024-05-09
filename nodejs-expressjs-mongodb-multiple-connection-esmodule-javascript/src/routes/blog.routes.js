@@ -2,7 +2,7 @@ import { Router } from "express";
 
 // ### Middlewares ###
 import { createBlogValidation, updateBlogValidation } from "../validations/blog.validations.js";
-import { validationHandler } from "../utils/validationHandler.js";
+import { validationHandler } from "../libs/validationHandler.js";
 import { userAuth } from "../middlewares/userAuth.middleware.js";
 
 // ### Controllers ###
